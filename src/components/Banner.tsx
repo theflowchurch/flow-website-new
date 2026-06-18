@@ -24,10 +24,10 @@ export default function Banner() {
       <div ref={ref} className={`reveal ${visible ? "visible" : ""} max-w-6xl mx-auto px-4 sm:px-6 lg:px-8`}>
         <div className="relative w-full rounded-3xl overflow-hidden border border-white/10">
           <Image
-            src="/images/flow/banner.png"
-            alt="FLOW Season 12"
-            width={3120}
-            height={1160}
+            src="/images/flow/shame-will-not-follow-me-banner.png"
+            alt="Shame will not follow me"
+            width={1280}
+            height={480}
             className="w-full h-auto"
           />
         </div>

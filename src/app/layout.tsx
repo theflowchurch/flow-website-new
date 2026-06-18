@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: "FLOW | You'll be glad you prayed",
     description:
       "Online Prophetic Prayer Meetings. Flexible Lovers Of The Word.",
-    images: ["/images/flow/banner.png"],
+    images: ["/images/flow/shame-will-not-follow-me-banner.png"],
   },
 };
 
