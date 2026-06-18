@@ -8,11 +8,11 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "FLOW | There's Power Here",
+  title: "FLOW | You'll be glad you prayed",
   description:
     "Join millions of believers worldwide in online prophetic prayer meetings. Flexible Lovers Of The Word. Tuesdays & Fridays at 4:30 AM GMT.",
   openGraph: {
-    title: "FLOW | There's Power Here",
+    title: "FLOW | You'll be glad you prayed",
     description:
       "Online Prophetic Prayer Meetings. Flexible Lovers Of The Word.",
     images: ["/images/flow/banner.png"],

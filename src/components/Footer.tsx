@@ -99,7 +99,7 @@ export default function Footer() {
                   { label: "Schedule", href: "#schedule" },
                   { label: "Watch", href: "#connect" },
                   { label: "Give", href: "#give" },
-                  { label: "Meetings of the Spirit", href: "#pastoral-care" },
+                  { label: "Care", href: "#pastoral-care" },
                   { label: "Testimonies", href: "#testimonies" },
                   { label: "Merch", href: "#merch" },
                   { label: "FLOW Blogs", href: "#blog" },
@@ -155,7 +155,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-[12px] text-white/20">
-              &copy; {new Date().getFullYear()}{" "}FLOW &mdash; There&apos;s Power Here
+              &copy; {new Date().getFullYear()}{" "}FLOW &mdash; You&apos;ll be glad you prayed
             </p>
           </div>
         </div>

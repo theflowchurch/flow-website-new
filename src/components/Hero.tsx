@@ -50,7 +50,7 @@ export default function Hero() {
           />
 
           <h1 className="text-6xl md:text-8xl font-bold text-white tracking-tight">
-            There&apos;s Power Here
+            You&apos;ll be glad you prayed
           </h1>
 
           {/* Gradient divider */}

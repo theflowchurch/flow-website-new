@@ -14,7 +14,7 @@ const products = [
     image: "/images/flow/merch-prayer-tee.png",
   },
   {
-    name: "There's Power Here Tee",
+    name: "You'll Be Glad You Prayed Tee",
     href: "https://church-shop.fourthwall.com/products/theres-power-here-tee",
     image: "/images/flow/merch-power-tee.png",
   },
