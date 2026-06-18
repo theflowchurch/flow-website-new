@@ -35,7 +35,7 @@ export default function Hero() {
       <div className="absolute bottom-1/4 right-1/4 w-48 h-48 bg-red-800/20 rounded-full blur-3xl animate-float-slow" />
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
+      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div
           className={`transition-all duration-1000 ${
             visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
@@ -56,14 +56,9 @@ export default function Hero() {
           {/* Gradient divider */}
           <div className="mx-auto mt-6 mb-6 h-1 w-48 md:w-64 bg-gradient-to-r from-accent via-accent-light to-accent rounded-full animate-drift" />
 
-          <Image
-            src="/images/flow/shame-will-not-follow-me.png"
-            alt="Shame will not follow me"
-            width={1280}
-            height={480}
-            className="mt-6 w-full max-w-3xl mx-auto rounded-xl border border-white/10 shadow-2xl shadow-black/40"
-            priority
-          />
+          <p className="text-xl md:text-2xl text-white/70 font-medium max-w-2xl mx-auto">
+            Online Prophetic Prayer Meetings
+          </p>
         </div>
 
         {/* CTA */}
