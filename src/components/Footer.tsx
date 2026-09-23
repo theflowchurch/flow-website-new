@@ -155,11 +155,17 @@ export default function Footer() {
               </span>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[12px] text-white/30">
-              <a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a>
-              <a href="/terms" className="hover:text-white transition-colors">Terms of Service</a>
               <span>&copy; {new Date().getFullYear()}{" "}FLOW &mdash; You&apos;ll be glad you prayed</span>
             </div>
           </div>
+        </div>
+        <div className="border-t border-white/5 px-4 py-4 text-center">
+          <a
+            href="/privacy"
+            className="text-xs text-white/80 underline underline-offset-4 transition-colors hover:text-white"
+          >
+            Privacy Policy
+          </a>
         </div>
       </div>
     </footer>

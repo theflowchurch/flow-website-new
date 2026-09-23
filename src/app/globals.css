@@ -104,3 +104,20 @@ article a {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+
+@media print {
+  main {
+    background: #fff !important;
+    color: #111 !important;
+  }
+
+  main * {
+    color: #111 !important;
+    border-color: #ddd !important;
+  }
+
+  main a {
+    color: #9f1d18 !important;
+    text-decoration: underline !important;
+  }
+}
