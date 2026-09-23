@@ -154,9 +154,11 @@ export default function Footer() {
                 Tuesdays &amp; Fridays &middot; 4:30 AM GMT &middot; Sundays &middot; 9:00 AM GMT
               </span>
             </div>
-            <p className="text-[12px] text-white/20">
-              &copy; {new Date().getFullYear()}{" "}FLOW &mdash; You&apos;ll be glad you prayed
-            </p>
+            <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[12px] text-white/30">
+              <a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a>
+              <a href="/terms" className="hover:text-white transition-colors">Terms of Service</a>
+              <span>&copy; {new Date().getFullYear()}{" "}FLOW &mdash; You&apos;ll be glad you prayed</span>
+            </div>
           </div>
         </div>
       </div>
