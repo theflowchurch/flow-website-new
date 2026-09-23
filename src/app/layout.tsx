@@ -8,6 +8,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://theflowchurch.online"),
   title: "FLOW | You'll be glad you prayed",
   description:
     "Join millions of believers worldwide in online prophetic prayer meetings. Flexible Lovers Of The Word. Tuesdays & Fridays at 4:30 AM GMT.",
