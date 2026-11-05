@@ -31,6 +31,7 @@ const CHURCH_OPTIONS = [
 
 export default function FlowmaticsForm() {
   const [church, setChurch] = useState("");
+  const [platform, setPlatform] = useState("");
   const active = CHURCH_OPTIONS.find((c) => c.value === church);
   const nameLabel = active ? active.nameLabel : "Name of your church";
 
@@ -112,6 +113,34 @@ export default function FlowmaticsForm() {
             <label className={labelClass} htmlFor="church_name">{nameLabel}</label>
             <input id="church_name" name="church_name" required
               placeholder="Type the name" className={fieldClass} />
+          </div>
+
+          <div>
+            <span className={labelClass}>Where will you share?</span>
+            <div className="grid grid-cols-2 gap-2">
+              {[
+                { value: "facebook", label: "Facebook" },
+                { value: "youtube", label: "YouTube" },
+              ].map((opt) => {
+                const selected = platform === opt.value;
+                return (
+                  <label key={opt.value}
+                    className={`cursor-pointer text-center rounded-xl border px-2 py-3 text-[14px] font-semibold transition-colors ${
+                      selected
+                        ? "border-accent bg-accent/15 text-white"
+                        : "border-white/10 bg-white/5 text-white/60 hover:border-white/25"
+                    }`}>
+                    <input type="radio" name="platform" value={opt.value}
+                      required checked={selected}
+                      onChange={() => setPlatform(opt.value)} className="sr-only" />
+                    {opt.label}
+                  </label>
+                );
+              })}
+            </div>
+            <p className="mt-2 text-[12px] text-white/40 leading-relaxed">
+              Your link will send people to the FLOW live stream on the platform you pick.
+            </p>
           </div>
 
           <div>
