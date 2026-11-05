@@ -9,7 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "next": "16.3.6",
+    "next": "16.4.5",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
@@ -19,8 +19,14 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.3.6",
+    "eslint-config-next": "16.4.5",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "overrides": {
+    "sharp": "0.35.5",
+    "zod": "^4.6.7",
+    "source-map-js": "^1.2.2",
+    "minimatch": "^10.2.5"
   }
 }
