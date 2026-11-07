@@ -116,7 +116,7 @@ export default function FlowmaticsForm() {
           </div>
 
           <div>
-            <span className={labelClass}>Where will you share?</span>
+            <span className={labelClass}>Which link will you prefer?</span>
             <div className="grid grid-cols-2 gap-2">
               {[
                 { value: "facebook", label: "Facebook" },
