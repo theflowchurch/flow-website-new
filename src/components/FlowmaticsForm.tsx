@@ -158,6 +158,12 @@ export default function FlowmaticsForm() {
             Get my link →
           </button>
 
+          <p className="text-center text-[13px] text-white/55 leading-relaxed">
+            Already signed up?{" "}
+            <a href="https://share.flowlive.org/mylink" className="font-semibold text-accent hover:underline">
+              Get your link back →
+            </a>
+          </p>
           <p className="text-center text-[12px] text-white/35 leading-relaxed">
             We&apos;ll only use your number to send you your FLOW link.
           </p>
